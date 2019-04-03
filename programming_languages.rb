@@ -2,7 +2,7 @@ def reformat_languages(languages_hash)
   new_hash = {}
   languages_hash.each do | style, langs|
     langs.each do |lang, attribute|
-      new_hash[lang]= {}   
+      new_hash[lang]= {style=> attribute}   
 end 
 
 
