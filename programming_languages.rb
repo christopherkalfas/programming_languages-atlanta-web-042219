@@ -1,5 +1,6 @@
-def reformat_languages(languages)
-  
+def reformat_languages(languages_hash)
+  new_hash = {}
+  languages_hash.each do |
 end 
 
 
